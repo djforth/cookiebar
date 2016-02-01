@@ -1,7 +1,7 @@
 'use strict'
 
 require('angular')
-Cookie = require('cookie_mgmt')
+Cookie = require('@djforth/cookie_mgmt')
 # _      = require('lodash')
 
 cookiebar =  angular.module('$cookiebar', [])

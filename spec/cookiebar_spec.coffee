@@ -3,12 +3,12 @@ require('angular')
 require('angular-mocks')
 
 
-cookieBar = require('../lib/cookiebar.coffee')
+cookieBar = require('../src/cookiebar.coffee')
 directives = require('./directives_tests.coffee')
 
 # /app/assets/javascripts/modules/header/cookiebar.coffee
 
-Cookie = require('cookie_mgmt')
+Cookie = require('@djforth/cookie_mgmt')
 
 describe 'Cookiebar', ->
   cb_mgmt = cookie = null
