@@ -23,6 +23,7 @@
   },
   "homepage": "https://github.com/djforth/cookiebar",
   "devDependencies": {
+    "angular-mocks": "^1.4.9",
     "browserify": "^13.0.0",
     "coffee-script": "^1.10.0",
     "coffeeify": "^2.0.1",
@@ -36,9 +37,8 @@
     "watchify": "^3.7.0"
   },
   "dependencies": {
-    "@djforth/cookie_mgmt": "^1.0.0",
+    "@djforth/cookie_mgmt": "^1.0.1",
     "angular": "^1.4.9",
-    "angular-mocks": "^1.4.9",
-    "lodash": "^4.1.0"
+    "lodash": "^3.10.1"
   }
 }
