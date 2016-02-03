@@ -1,6 +1,6 @@
 {
   "name": "@djforth/cookiebar",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "dependencies": {
     "@djforth/cookie_mgmt": {
       "version": "1.0.1",
